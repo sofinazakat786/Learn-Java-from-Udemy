@@ -14,5 +14,7 @@ public class Main {
         } catch (IllegalArgumentException exception) {
             System.out.println("Error: " + exception.getMessage());
         }
+
+        System.out.println("added a new line");
     }
 }
