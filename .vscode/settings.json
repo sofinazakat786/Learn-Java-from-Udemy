@@ -1,5 +1,6 @@
 {
     "java.project.sourcePaths": [
+        "code360/11January",
         "code360/08 Jan_Reverse the array",
         "code360/06Jan",
         "Woorkbooks/Workbook8.1",
@@ -14,9 +15,10 @@
         "Topics/CHECKED-EXPECTIONS",
         "Topics/ARGUMENT VALIDATIONS",
         "Quizs",
+        "Projects/Project3",
         "Projects/Project2",
         "Projects/Project1",
         "Extra Practice",
-        "Projects/Project3"
+        "Topics/Hashmap_tut"
     ]
 }
