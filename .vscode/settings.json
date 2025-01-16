@@ -10,8 +10,8 @@
         "Woorkbooks/Workbook3.7",
         "Woorkbooks/Workbook3.5",
         "Woorkbooks/Workbook3.4",
-        "Woorkbooks/Topics/List Collections",
-        "Woorkbooks/Topics/Equals",
+        "Topics/Hashmap_tut",
+        "Topics/ENUM",
         "Topics/CHECKED-EXPECTIONS",
         "Topics/ARGUMENT VALIDATIONS",
         "Quizs",
@@ -19,6 +19,6 @@
         "Projects/Project2",
         "Projects/Project1",
         "Extra Practice",
-        "Topics/Hashmap_tut"
+        "Topics/ENUMS"
     ]
 }
