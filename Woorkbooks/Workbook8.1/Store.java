@@ -24,7 +24,7 @@ public class Store {
     }
 
     public static void addMovie(Movie movie) {
-        movies.add(movie); // Add the movie to the list.
+        // movies.add(movie); // Add the movie to the list.
     }
 
     public List<Movie> getMovies() {
