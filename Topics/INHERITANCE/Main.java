@@ -5,14 +5,14 @@ import product.Shirt;
 public class Main {
 
     public static void main(String[] args) {
-
+        // Product product = new Product(13, "Blue", "NO_NAME");  // Can't create objects from abstract class
         Shirt shirt1 = new Shirt();
         Shirt shirt2 = new Shirt(10.99, "RED", "Adidas", Shirt.Size.SMALL);
         
         Product shirt3 = new Shirt();
-        shirt3.setBrand("Levi's");
-        shirt3.fold();
-        productStore(shirt3);
+        // shirt3.setBrand("Levi's");
+        // shirt3.fold();
+        // productStore(shirt3);
 
         // Example usage
         shirt1.setBrand("Nike");
@@ -20,7 +20,7 @@ public class Main {
         shirt1.setPrice(29.99);
         shirt1.setSize(Shirt.Size.LARGE);
         // shirt1.fold();
-        // productStore(shirt1);
+        // productStore(shirt1);oduct
         shirt2.fold();
         productStore(shirt2);
 
@@ -36,6 +36,7 @@ public class Main {
 
     public static void productStore(Product product){
         System.out.println("Thanks you for purchasing "+ product.getBrand()+" "+ product.getClass().getSimpleName().toLowerCase()+"."+ " YOur total comes to "+  product.getPrice());
+        product.wear();
     }
 
 
