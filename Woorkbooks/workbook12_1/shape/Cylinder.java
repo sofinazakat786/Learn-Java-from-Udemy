@@ -1,22 +1,16 @@
 package shape;
 
-public class Sphere extends Shape {
+public class Cylinder extends Shape {
 
     private double height;
 
-
-    public Sphere() {
-        super();
-    }
-    public Sphere(double height) {
-        this.height = height;
+    public Cylinder() {
     }
 
-    public Sphere(double radius, double height) {
+    public Cylinder(double radius, double height) {
         super(radius);
         this.height = height;
     }
-
 
     public double getHeight() {
         return this.height;
@@ -28,8 +22,10 @@ public class Sphere extends Shape {
 
     @Override
     public double getArea() {
-        double radius = getRadius();
-        return 2 * Math.PI * Math.pow(radius, 2) + 2 * Math.PI * radius * height;
+        // Surface Area of Cylinder: 2πr^2 + 2πrh
+        double radius = getRadius(); // Accessing the radius from the superclass
+        double area = 2 * Math.PI * Math.pow(radius, 2) + 2 * Math.PI * radius * height;
+        return Math.round(area * 100.0) / 100.0; // Round to 2 decimal places
     }
 
     @Override
@@ -39,8 +35,5 @@ public class Sphere extends Shape {
         System.out.println("Volume: " + volume);
 
     }
-
-
-
 
 }

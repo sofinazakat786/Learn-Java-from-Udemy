@@ -1,16 +1,25 @@
 package shape;
 
-public class Shape {
+public abstract class Shape {
+
     private double radius;
 
+    public Shape() {
+    }
+
+    public Shape(double radius) {
+        this.radius = radius;
+    }
+
     public void setRadius(double radius) {
-        if (radius < 0) {
-            throw new IllegalArgumentException("Radius cannot be negative");
-        }
         this.radius = radius;
     }
 
     public double getRadius() {
         return this.radius;
     }
+
+    public abstract double getArea();
+
+    public abstract void getVolume();
 }

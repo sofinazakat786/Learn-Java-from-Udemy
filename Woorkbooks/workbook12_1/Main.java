@@ -1,22 +1,34 @@
-import shape.Circle;
-import shape.Sphere;
 
+import shape.Circle;
+import shape.Cylinder;
+import shape.Sphere;
 
 public class Main {
 
     public static void main(String[] args) {
-        
-        Circle circle = new Circle();
 
-        circle.setRadius(2.02);
-        
+        Circle circle1 = new Circle();
 
-        Sphere sphere = new Sphere();
-        sphere.setRadius(20.1);
-        sphere.setHeight(3.25);
+        circle1.setRadius(2.02);
 
-        System.out.println(circle.getRadius());
-        System.out.println(sphere.getHeight());
+        Sphere sphere1 = new Sphere();
+        sphere1.setRadius(20.1);
+        sphere1.setHeight(3.25);
+
+        System.out.println(circle1.getRadius());
+        System.out.println(sphere1.getHeight());
+
+        System.out.println("*********************************************NEW*****************************");
+        Cylinder cylinder1 = new Cylinder(1.0, 3.0);
+        Sphere sphere2 = new Sphere(1.0);
+
+        System.out.println("Sphere 2 - radius: " + sphere2.getRadius());
+        System.out.println("Cylinder - raduis: " + cylinder1.getRadius() + " Height: " + cylinder1.getHeight());
+
+        System.out.println("Area of circle: "+ circle1.getArea());
+        System.out.println("Area of Cylinder: "+ cylinder1.getArea()+" cm sq.");
+
+
     }
 
 }
