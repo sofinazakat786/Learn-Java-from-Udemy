@@ -3,7 +3,6 @@
         "code360/11January",
         "code360/08 Jan_Reverse the array",
         "code360/06Jan",
-        "Woorkbooks/woorkbook13_1",
         "Woorkbooks/Workbook9_2",
         "Woorkbooks/Workbook8.1",
         "Woorkbooks/Workbook4.2",
@@ -12,6 +11,7 @@
         "Woorkbooks/Workbook3.7",
         "Woorkbooks/Workbook3.5",
         "Woorkbooks/Workbook3.4",
+        "Topics/LambdaExpressions",
         "Topics/INHERITANCE",
         "Topics/Hashmap_tut",
         "Topics/ENUMS",
@@ -23,6 +23,6 @@
         "Projects/Project2",
         "Projects/Project1",
         "Extra Practice",
-        "Topics/LambdaExpressions"
+        "Capstone/starter-project"
     ]
 }
